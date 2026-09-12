@@ -1,0 +1,12 @@
+{
+  "name": "niko0xdev-skills",
+  "interface": { "displayName": "niko0xdev Skills" },
+  "plugins": [
+    {
+      "name": "product-deep-research",
+      "source": { "source": "local", "path": "../../product-deep-research" },
+      "policy": { "installation": "AVAILABLE", "authentication": "NOT_REQUIRED" },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product Opportunity",
+  "type": "object",
+  "required": ["id", "title", "insight_ids", "problem", "hypothesis", "scores", "confidence", "state"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "insight_ids": {"type": "array", "items": {"type": "string"}},
+    "problem": {"type": "string"},
+    "hypothesis": {"type": "string"},
+    "alternative_solutions": {"type": "array", "items": {"type": "string"}},
+    "scores": {"type": "object", "properties": {
+      "strategic_fit": {"type": "number"}, "user_pain": {"type": "number"}, "market_evidence": {"type": "number"}, "differentiation": {"type": "number"}, "business_value": {"type": "number"}, "feasibility": {"type": "number"}, "timing": {"type": "number"}, "raw": {"type": "number"}, "adjusted": {"type": "number"}
+    }},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "effort": {"enum": ["XS", "S", "M", "L", "XL"]},
+    "recommendation": {"enum": ["BUILD", "PROTOTYPE", "WATCH", "REJECT"]},
+    "state": {"enum": ["DISCOVERED", "WATCH", "RESEARCH", "VALIDATE", "PROPOSE", "ACCEPTED", "REJECTED"]}
+  }
+}

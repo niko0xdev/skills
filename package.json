@@ -1,0 +1,14 @@
+{
+  "name": "product-deep-research",
+  "version": "0.1.0",
+  "description": "Portable Product Intelligence / deep research skill package",
+  "type": "module",
+  "main": "./product-deep-research/.opencode/plugins/product-deep-research.js",
+  "keywords": ["pi-package", "agent-skills", "product-research", "competitive-intelligence"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/niko0xdev/skills.git" },
+  "pi": {
+    "extensions": ["./product-deep-research/.pi/extensions/product-deep-research.ts"],
+    "skills": ["./product-deep-research/skills"]
+  }
+}

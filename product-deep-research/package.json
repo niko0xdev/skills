@@ -1,0 +1,15 @@
+{
+  "name": "product-deep-research",
+  "version": "0.1.0",
+  "description": "Evidence-driven product intelligence and deep research skill for coding agents",
+  "type": "module",
+  "main": ".opencode/plugins/product-deep-research.js",
+  "keywords": ["pi-package", "agent-skills", "product-research", "competitive-intelligence", "deep-research", "product-management"],
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/niko0xdev/skills.git"},
+  "homepage": "https://github.com/niko0xdev/skills/tree/main/product-deep-research",
+  "pi": {
+    "extensions": ["./.pi/extensions/product-deep-research.ts"],
+    "skills": ["./skills"]
+  }
+}

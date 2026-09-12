@@ -1,0 +1,10 @@
+{
+  "name": "product-deep-research",
+  "description": "Evidence-driven product intelligence, competitor analysis, trend discovery, and opportunity research",
+  "version": "0.1.0",
+  "author": {"name": "niko0xdev"},
+  "homepage": "https://github.com/niko0xdev/skills/tree/main/product-deep-research",
+  "repository": "https://github.com/niko0xdev/skills",
+  "license": "MIT",
+  "keywords": ["product-research", "deep-research", "competitive-intelligence", "product-management", "market-research"]
+}

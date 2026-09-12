@@ -1,0 +1,22 @@
+{
+  "name": "product-deep-research",
+  "version": "0.1.0",
+  "description": "Evidence-driven Product Intelligence OS for coding agents",
+  "author": {"name": "niko0xdev", "url": "https://github.com/niko0xdev"},
+  "homepage": "https://github.com/niko0xdev/skills/tree/main/product-deep-research",
+  "repository": "https://github.com/niko0xdev/skills",
+  "license": "MIT",
+  "keywords": ["product-research", "competitive-intelligence", "deep-research"],
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "Product Deep Research",
+    "shortDescription": "Market, competitor, user, and technology intelligence",
+    "longDescription": "Research products and markets with evidence verification, trend clustering, opportunity scoring, and human decision gates.",
+    "developerName": "niko0xdev",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": ["Research the competitive landscape for this product.", "Challenge this product idea with market and user evidence."],
+    "websiteURL": "https://github.com/niko0xdev/skills"
+  }
+}
