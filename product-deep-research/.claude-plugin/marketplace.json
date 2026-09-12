@@ -1,0 +1,10 @@
+{
+  "name": "product-deep-research-marketplace",
+  "owner": {"name": "niko0xdev"},
+  "plugins": [{
+    "name": "product-deep-research",
+    "source": "./",
+    "description": "Evidence-driven Product Intelligence OS for deep market, competitor, user, and technology research",
+    "version": "0.1.0"
+  }]
+}
