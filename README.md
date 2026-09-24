@@ -14,6 +14,10 @@ Signal → Evidence → Insight → Opportunity → Hypothesis → Score → Rec
 
 See [`product-deep-research/README.md`](product-deep-research/README.md) for setup and usage.
 
+## WorkGo edge cluster
+
+`skills/workgo-edge-cluster` documents the hybrid cloud + homelab cluster (`sg-cloud`, `edge-cloud-lg`, `edge-cloud-sm`): SSH aliases, Headscale, DNS, compose, registry, zrouter, and Docker Desktop context. Copy or symlink into `~/.claude/skills`, `~/.codex/skills`, and `~/.hermes/skills`.
+
 ## Existing engineering skills
 
 The original engineering workflow skills remain under `skills/`, including requirements analysis, brainstorming, implementation planning, worktree management, feature implementation, testing, lint/cleanup, commit authoring, and pipeline orchestration.
